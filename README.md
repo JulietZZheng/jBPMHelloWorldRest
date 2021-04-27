@@ -1,4 +1,4 @@
-This sample shows how to expose workflow as rest service and start a workflow hello from rest service http://localhost:<port>/hello-mgmt-rest/api/workflow/com.sample.hellomgmt.workflow.hello/yourname
+This sample shows how to expose workflow as rest service and start a workflow hello from rest service http://localhost:port/hello-mgmt-rest/api/workflow/com.sample.hellomgmt.workflow.hello/yourname
 
 ## Environment
 
@@ -17,7 +17,7 @@ Use the latest version of Maven available that will work for your java environme
 __Clone the Repository__
 
 ```
-git clone https://github.com/jzheng/jBPMHelloWorldRest.git
+git clone https://github.com/JulietZZheng/jBPMHelloWorldRest.git
 ```
 
 __Build
