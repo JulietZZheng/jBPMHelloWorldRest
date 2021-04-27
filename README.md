@@ -1,4 +1,4 @@
-This sample shows how to expose workflow as rest service and start a workflow hello from rest service http://localhost:port/hello-mgmt-rest/api/workflow/com.sample.hellomgmt.workflow.hello/yourname
+This sample shows how to expose workflow as rest service and start a workflow hello from rest service http://localhost:port/hello-mgmt-rest/api/workflow/com.sample.hellomgmt.workflow.hello/yourname. The workflow hello contains a script task (with java).
 
 ## Environment
 
