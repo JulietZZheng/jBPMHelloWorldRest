@@ -1,5 +1,15 @@
 This sample shows how to expose workflow as rest service and start a workflow hello from rest service http://localhost:port/hello-mgmt-rest/api/workflow/com.sample.hellomgmt.workflow.hello/yourname. The workflow hello contains a script task (with java).
 
+The workflow defination is hello-mgmt-workflow-ejb/src/main/resources/com/sample/hellomgmt/workflow/hello.bpmn.
+
+Persistance setting is in hello-mgmt-workflow-ejb/src/main/resources/META-INF/persistence.xml
+
+Main class/ejb to start workflow is hello-mgmt-workflow-ejb/src/main/java/com/sample/workflow/StartupBean.java
+
+Rest application is hello-mgmt-rest/src/main/java/com/sample/hellomgmt/service/rest/HelloMgmtServiceApplication.java
+
+Rest resource to expose main class/ejb is hello-mgmt-rest/src/main/java/com/sample/hellomgmt/service/rest/resource/WorkflowResource.java
+
 ## Environment
 
 ### Requirements:
