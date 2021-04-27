@@ -1,0 +1,3 @@
+com\sample\workflow\Person.class
+com\sample\workflow\HelloService.class
+com\sample\workflow\interfaces\WorkflowProxyService.class
